@@ -188,7 +188,7 @@ public class Session5 {
         // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
         // ✅❤️ For Each Loop
 
-        int arr[] = { 10, 20, 30, 40, 50 };
+        // int arr[] = { 10, 20, 30, 40, 50 };
 
         // for(int i=0;i<5;i++){ //tradiation way
         // System.out.println(arr[i]);
@@ -200,14 +200,36 @@ public class Session5 {
 
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
         // ✅❤️ Pattern
-            
 
-        for(int i=1;i<=3;i++){
 
-            for(int j=1;j<=4;j++)
-                System.out.print(i+""+j+"\t");
-                System.out.println();
-            
-        }
+//        for(int i=1;i<=3;i++){
+
+//            for(int j=1;j<=4;j++)
+//                System.out.print(i+""+j+"\t");
+//                System.out.println();
+
+//        }
+//    }
+// }
+
+////          1]
+//           11   12  13  14
+//           21   12  13  14
+//           31    32   33  34
+
+for(int i=1;i<=3;i++)//1 2 <=3 rows
+{ //i=1 , 2 ,3 
+    for(int j=1;j<=4;j++){
+        System.out.print(i+""+j+"\t"); //1 2 3 4 5<=4 column
+
+        //11 12 13 14
+        //21 22 23 24
+        //31 32 33 34}
     }
-}
+        System.out.println();
+    }
+
+
+    }}
+
+
